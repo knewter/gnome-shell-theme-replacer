@@ -27,7 +27,7 @@ puts js_files.inspect
 js_files.each do |filename|
   # Initially, we'll just iterate over the hash we get out of the yaml file and do a strict gsub,
   # that should work fairly well for now.
-  file = File.open(filename, "r+")
+  file = File.open(js_ui_dir + "/" + filename, "r+")
   str = file.read
   config.each_pair do |key, value|
     puts key 
