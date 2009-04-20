@@ -1,0 +1,5 @@
+to use this sucker...
+
+1) modify the .rb file and replace the path to gnome-shell with your own
+2) run it, passing in the full path to one of the .yml theme files provided as the first argument
+3) alt+f2, restart
